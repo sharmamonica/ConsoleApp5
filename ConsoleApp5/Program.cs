@@ -10,6 +10,15 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
+            int i = 1; int sum = 0;
+            while (i <= 5)
+            {
+
+                sum += i;
+                i++;
+            }
+            Console.WriteLine(" sum of five number is ={0}", sum);
+            Console.ReadLine();
         }
     }
 }
